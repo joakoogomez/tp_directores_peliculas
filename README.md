@@ -2,7 +2,7 @@ pagina directores y peliculas
 Integrantes
 
 Russo Gonzalo (ndazeo@blah.com)
-Gomez Portilla Joaquin (fstramana@blah.com)
+Gomez Portilla Joaquin (joaquingomezportilla@gmail.com)
 
 Temática
 directores y pelicula
