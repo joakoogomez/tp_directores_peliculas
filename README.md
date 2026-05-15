@@ -1,7 +1,7 @@
 pagina directores y peliculas
 Integrantes
 
-Russo Gonzalo (ndazeo@blah.com)
+Russo Gonzalo (gonzalorusso39@gmail.com)
 Gomez Portilla Joaquin (joaquingomezportilla@gmail.com)
 
 Temática
