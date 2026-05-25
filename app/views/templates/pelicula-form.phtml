@@ -1,0 +1,59 @@
+<div class="card">
+
+    <div class="card-body">
+
+        <form method="POST" action="add">
+
+            <input
+                required
+                name="nombre"
+                type="text"
+                class="form-control mb-2"
+                placeholder="Nombre película"
+            >
+
+            <input
+                required
+                name="fecha_estreno"
+                type="date"
+                class="form-control mb-2"
+            >
+
+            <input
+                required
+                name="nacionalidad"
+                type="text"
+                class="form-control mb-2"
+                placeholder="Nacionalidad"
+            >
+
+            <select
+                required
+                name="director"
+                class="form-select mb-2"
+            >
+
+                <?php foreach($directores as $director) { ?>
+
+                    <option value="<?= $director->id_director ?>">
+
+                        <?= $director->nombre ?>
+
+                    </option>
+
+                <?php } ?>
+
+            </select>
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                Agregar película
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

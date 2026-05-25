@@ -1,0 +1,57 @@
+/* Issue Tracker - estilos propios */
+
+body {
+  background-color: #f5f7fa;
+}
+
+/* Estado */
+.btn-estado {
+  font-size: .8rem;
+  padding: .4em .7em;
+  color: #fff;
+}
+.estado-TODO        { background-color: #94a3b8; }
+.estado-IN-PROGRESS { background-color: #0d6efd; }
+.estado-DONE        { background-color: #198754; }
+
+/* Badges de tipo */
+.badge-tipo {
+  font-size: .75rem;
+  padding: .3em .6em;
+  font-weight: 500;
+  color: #fff;
+}
+.tipo-Bug        { background-color: #dc3545; }
+.tipo-Task       { background-color: #6c757d; }
+.tipo-User       { background-color: #6610f2; }
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+/* Comentarios */
+.comment {
+  border-left: 3px solid #0d6efd;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+.comment-meta {
+  color: #6c757d;
+  font-size: .85rem;
+}
+
+/* Login */
+.login-card {
+  max-width: 400px;
+  margin: 5rem auto;
+}
+
+/* Footer */
+footer.app-footer {
+  color: #6c757d;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: .85rem;
+}

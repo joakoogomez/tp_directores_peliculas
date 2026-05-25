@@ -1,0 +1,66 @@
+<div class="card">
+
+    <div class="card-body">
+
+        <h3>
+            Directores (<?= $count ?>)
+        </h3>
+
+        <table class="table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Nombre</th>
+
+                    <th>Fecha nacimiento</th>
+
+                    <th>Edad</th>
+
+                    <th>Acciones</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <?php foreach($directores as $director) { ?>
+
+                    <tr>
+
+                        <td>
+                            <?= $director->nombre ?>
+                        </td>
+
+                        <td>
+                            <?= $director->fecha_nacimiento ?>
+                        </td>
+
+                        <td>
+                            <?= $director->edad ?>
+                        </td>
+
+                        <td>
+
+                            <a
+                                href="deleteDirector/<?= $director->id_director ?>"
+                                class="btn btn-danger btn-sm"
+                            >
+                                Eliminar
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                <?php } ?>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>

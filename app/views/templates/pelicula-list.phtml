@@ -1,0 +1,79 @@
+<div class="card">
+
+    <div class="card-body">
+
+        <h3>
+            Películas (<?= $count ?>)
+        </h3>
+
+        <table class="table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Nombre</th>
+
+                    <th>Fecha estreno</th>
+
+                    <th>Nacionalidad</th>
+
+                    <th>Director</th>
+
+                    <th>Acciones</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <?php foreach($peliculas as $pelicula) { ?>
+
+                    <tr>
+
+                        <td>
+                            <?= $pelicula->nombre ?>
+                        </td>
+
+                        <td>
+                            <?= $pelicula->fecha_estreno ?>
+                        </td>
+
+                        <td>
+                            <?= $pelicula->nacionalidad ?>
+                        </td>
+
+                        <td>
+                            <?= $pelicula->director ?>
+                        </td>
+
+                        <td>
+
+                            <a
+                                href="pelicula/<?= $pelicula->id_pelicula ?>"
+                                class="btn btn-primary btn-sm"
+                            >
+                                Ver
+                            </a>
+
+                            <a
+                                href="delete/<?= $pelicula->id_pelicula ?>"
+                                class="btn btn-danger btn-sm"
+                            >
+                                Eliminar
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                <?php } ?>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
