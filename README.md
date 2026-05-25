@@ -10,9 +10,9 @@ Descripción:
 Pagina de directores con algunas de sus peliculas mas famosas.
 
 
-proyecto realizado con php,mySQL y apache utilizando arquitectura MVC.
+Proyecto realizado con php,mySQL y apache utilizando arquitectura MVC.
 
-como ejecutar el proyecto:
+Como ejecutar el proyecto:
 
 1-copiar la carpeta del proyecto dentro de `htdocs` de xampp.
 
@@ -24,14 +24,14 @@ como ejecutar el proyecto:
 
 http://localhost/web2tpe
 
-configuración de la base de datos:
+Configuración de la base de datos:
 
 - host: localhost
 - base de datos: db_peliculas
 - usuario: root
 - contraseña: ' ' //vacia
 
-funcionalidades:
+Funcionalidades:
 
 El sistema permite agregar, eliminar y visualizar películas y directores.  
 También cuenta con manejo de sesiones, middlewares y validación de formularios.
